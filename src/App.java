@@ -1,5 +1,5 @@
 import java.util.Random;
-
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) {
@@ -25,11 +25,21 @@ public class App {
             System.out.print(num + " ");
         }
         System.out.println();
-       
+        try{ //lepo 3 sec
+            Thread.sleep(3000);
+
+        }
+        catch(InterruptedException ex)
+        {
+            Thread.currentThread().interrupt();
+        }
+        //printtaa 20 tyhjää riviä
+            for (int a = 0; a <20; ++a) System.out.println();
+
+  
+         
 
        }
 
     }
     
-
-
