@@ -36,8 +36,17 @@ public class App {
         //printtaa 20 tyhjää riviä
             for (int a = 0; a <20; ++a) System.out.println();
 
-  
-         
+             //u = arvatun numero järjestysnumero
+            
+             Scanner scanner = new Scanner(System.in);
+             int numbras [] = new int [7];
+             for (int u = 0; u < numbras.length; u++){
+             
+         System.out.println("Syötä " + (u+1) + ". numero: ");
+        numbras [u]= scanner.nextInt();
+        
+        
+             }     
 
        }
 
