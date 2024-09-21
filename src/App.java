@@ -21,8 +21,8 @@ public class App {
           //väli jokaisen numeron jälkeen
         for (int num : numerot)
           
-          {
-            System.out.print(num + " ");
+        {
+        System.out.print(num + " ");
         }
         System.out.println();
         try{ //lepo 3 sec
@@ -31,12 +31,10 @@ public class App {
         }
         catch(InterruptedException ex)
         {
-            Thread.currentThread().interrupt();
+        Thread.currentThread().interrupt();
         }
         //printtaa 20 tyhjää riviä
             for (int a = 0; a <20; ++a) System.out.println();
-
-        
 
             //u = arvatun numero järjestysnumero
             
@@ -55,12 +53,9 @@ public class App {
             System.out.println();
             System.out.println("Oikeat numerot olivat:");
             
-            for (int num : numbras){
+            for (int num : numerot){
                 System.out.print(num + " ");
             }
-           
-        
-
         scanner.close();
 
        }
